@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clothing website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="cathegories">
+        <a href="#" class="cathegories__women">Women</a>
+        <a href="#" class="cathegories__men">Men</a>
+        <a href="#" class="cathegories__kids">Kids</a>
+      </div>
+      <div class="account">
+        <a href="#" class="account__yourAccount">Your Account 
+          <svg class="icon icon-user">
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+
+        </a>
+        <a href="#" class="account__wishList">Wish List
+          <svg class="icon icon-heart">
+            <use xlink:href="img/sprite.svg#icon-heart"></use>
+          </svg>
+
+        </a>
+        <a href="#" class="account__shoppingBag">Shopping cart
+          <svg class="icon icon-shopping-cart">
+            <use xlink:href="img/sprite.svg#icon-shopping-cart"></use>
+          </svg>
+
+        </a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="displayed-item">
+        <div class="gallery">
+          <div class="full-img">
+            <img class="displayed-img" src="img/rossa1.jpg" alt="red clutch" />
+          </div>
+          <div class="thumb-bar">
+            <img class="gallery-img" src="img/rossa1.jpg" alt="rossa1" />
+            <img class="gallery-img" src="img/rossa3.jpg" alt="rossa3" />
+            <img class="gallery-img" src="img/rossa4.jpg" alt="rossa4" />
+          </div>
+        </div>
+        <div class="item-info">
+          <a class="product-brand" href="#">Liebeskind Berlin</a>
+          <h2 class="product-name">Across body bag - dahlia red</h2>
+          <h3 class="product-price">109 € VAT included</h3>
+          <button class="add-to-bag">Add to cart</button>
+          <button class="add-to-wishlist">Add to wishlist</button>
+        </div>
+      </div>
+      <h2 class="similar"><span>How about this?</span> <br />Similar items</h2>
+      <div class="similar-items">
+        <div class="item item1">
+          <img class="item-pic" src="img/nera1.jpg" alt="nera1" />
+          <h4 class="item-price">99.50 €</h4>
+          <h5 class="item-name">Across body bag - black Liebeskind Berlin</h5>
+        </div>
+        <div class="item item2">
+          <img class="item-pic" src="img/silver1.jpg" alt="silver1" />
+          <h4 class="item-price">113 €</h4>
+          <h5 class="item-name">Across body bag - silver Liebeskind Berlin</h5>
+        </div>
+        <div class="item item3">
+          <img class="item-pic" src="img/yellow1.jpg" alt="yellow1" />
+          <h4 class="item-price">82.50 €</h4>
+          <h5 class="item-name">Soft skin clutch S - yellow clutch Liebeskind Berlin</h5>
+        </div>
+        <button class="next-btn">&#10095;</button>
+        <button class="prev-btn">&#10094;</button>
+
+      </div>
+    </div>
+    <div class="footer">
+      <a class="footer-link footer-link-1" href="#">Terms and Conditions</a>
+      <a class="footer-link footer-link-2" href="#">Privacy Policy</a>
+      <a class="footer-link footer-link-3" href="#">Contacts</a>
+      <a class="footer-link footer-link-4" href="#">Jobs</a>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
